@@ -2,7 +2,7 @@ document.getElementById('btnClick').addEventListener('click', function() {
     document.getElementById('output').textContent = '¡Botón clicado!';
 });
 
-//this is a method
+//this is a method, suscribe DevTec Brothers
 document.getElementById('contactForm').addEventListener('submit', function(event) {
     event.preventDefault();
     var name = document.getElementById('name').value;
